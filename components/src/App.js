@@ -8,9 +8,9 @@ export default function App() {
 	    <h1 className="bg-primary text-white text-center p-2">
 	      Hello David
 	    </h1>
-	    <Message />
-	    <Message />
-	    <Message />
+	    <Message greeting="Hello" name="Bob" />
+	    <Message greeting="Bonjour" name={"Brigitte" + " " + "Bardot"} />
+	    <Message greeting="Hi there" name="Dora" />
 	    <Summary />
     </div>
   ); 
