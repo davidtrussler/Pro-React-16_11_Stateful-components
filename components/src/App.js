@@ -1,17 +1,27 @@
 import React from 'react'; 
-import Message from './Message'; 
 import Summary from './Summary'; 
 
+let names = ['Bob', 'Brigitte', 'Dora']; 
+
 export default function App() {
-  return (
-  	<div>
-	    <h1 className="bg-primary text-white text-center p-2">
-	      Hello David
-	    </h1>
-	    <Message greeting="Hello" name="Bob" />
-	    <Message greeting="Bonjour" name={"Brigitte" + " " + "Bardot"} />
-	    <Message greeting="Hi there" name="Dora" />
-	    <Summary />
-    </div>
-  ); 
+return (
+	<table>
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Name</th>
+				<th>Letters</th>
+			</tr>
+		</thead>
+		<tbody>
+			{
+				names.map((name, index) => 
+					<tr key={name}>
+						<Summary index={index} name={name}/>
+					</tr>
+				)
+			}
+		</tbody>
+	</table>
+	); 
 }

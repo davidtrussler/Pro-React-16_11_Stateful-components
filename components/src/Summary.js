@@ -1,9 +1,15 @@
 import React from 'react'; 
 
-export default function Summary() {
-  return (
-    <h4 className="bg-info text-white text-center p-2">
-      This is a summary
-    </h4>
-  ); 
+export default function Summary(props) {
+	if (props.name.length >= 4) {
+		return (
+			<React.Fragment>  	
+				<td>{props.index + 1}</td>
+				<td>{props.name}</td>
+				<td>{props.name.length}</td>
+			</React.Fragment>
+		); 
+	} else {
+		return null; 
+	}
 }

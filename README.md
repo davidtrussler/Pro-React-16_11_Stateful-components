@@ -12,7 +12,14 @@
 - Introduces JSX to mix HTML and JavaScript and alternate syntax, including fat arrow
 - Adds child components
 
-### 3. [Understanding Props](https://github.com/davidtrussler/Pro-React-16_10_Components-props)
+### 3. [Understanding Props](https://github.com/davidtrussler/Pro-React-16_10_Components-props/tree/Understanding-props)
 
-- Defines props in Parent Component
-- Receives props in Child Component
+- Defines props in parent component
+- Receives props in child component
+
+### 4. [Combinig JS and Props to render content](https://github.com/davidtrussler/Pro-React-16_10_Components-props/tree/Combining-JS_Props)
+
+- Selectively renders content in child component
+- Renders arrays
+- Renders multiple elements
+- Renders no content
