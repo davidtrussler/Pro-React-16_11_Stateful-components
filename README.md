@@ -17,9 +17,13 @@
 - Defines props in parent component
 - Receives props in child component
 
-### 4. [Combinig JS and Props to render content](https://github.com/davidtrussler/Pro-React-16_10_Components-props/tree/Combining-JS_Props)
+### 4. [Combining JS and Props to render content](https://github.com/davidtrussler/Pro-React-16_10_Components-props/tree/Combining-JS_Props)
 
 - Selectively renders content in child component
 - Renders arrays
 - Renders multiple elements
 - Renders no content
+
+### 5. [Using function props](https://github.com/davidtrussler/Pro-React-16_10_Components-props/tree/Using-function-props)
+
+- Passes functions through props
