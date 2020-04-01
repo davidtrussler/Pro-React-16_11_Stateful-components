@@ -27,3 +27,8 @@
 ### 5. [Using function props](https://github.com/davidtrussler/Pro-React-16_10_Components-props/tree/Using-function-props)
 
 - Passes functions through props
+
+### 6. [Passing props to child components](https://github.com/davidtrussler/Pro-React-16_10_Components-props/tree/Passing-props-to-child-components)
+
+- Uses props to abstract specific components to generic ones
+- Passes on all props to child component via destructuring operator
