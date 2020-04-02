@@ -9,8 +9,6 @@ export default function Summary(props) {
 			<td>{props.name.length}</td>
 			<td>
 				<CallbackButton
-					theme="primary"
-					text="Reverse"
 					callback={props.reverseCallback}
 				/>
 				<CallbackButton

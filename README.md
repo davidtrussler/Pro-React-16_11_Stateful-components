@@ -32,3 +32,7 @@
 
 - Uses props to abstract specific components to generic ones
 - Passes on all props to child component via destructuring operator
+
+### 7. [Using Default prop values](https://github.com/davidtrussler/Pro-React-16_10_Components-props/tree/Using-default-prop-values)
+
+- Defines set of default prop values
