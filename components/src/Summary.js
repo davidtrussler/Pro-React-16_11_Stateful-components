@@ -15,6 +15,7 @@ export default function Summary(props) {
 					theme="info"
 					text="Promote"
 					callback={() => props.promoteCallback(props.name)}
+					disabled="true"
 				/>
 			</td>
 		</React.Fragment>

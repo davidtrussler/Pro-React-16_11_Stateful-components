@@ -36,3 +36,8 @@
 ### 7. [Using Default prop values](https://github.com/davidtrussler/Pro-React-16_10_Components-props/tree/Using-default-prop-values)
 
 - Defines set of default prop values
+
+### 8. [Type checking prop values](https://github.com/davidtrussler/Pro-React-16_10_Components-props/tree/Type-checking-prop-values)
+
+- Adds propTypes to child component
+- Allows multiple types for a prop
