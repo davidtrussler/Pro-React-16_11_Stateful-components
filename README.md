@@ -13,4 +13,4 @@ Based on Chapter 11 of Pro-React-16
 
 ### 2. [Creating a Stateful Component](https://github.com/davidtrussler/Pro-React-16_11_Stateful-components/tree/Create-Stateful-Component)
 
-- 
+- Converts SimpleButton from stateless to stateful component
