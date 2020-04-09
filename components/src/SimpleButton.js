@@ -1,11 +1,26 @@
-import React from 'react'; 
+import React, {Component} from 'react'; 
 
-export function SimpleButton(props) {
-	return (
-		<button 
-			className={props.className}
-			onClick={props.callback}
-			disabled={props.disabled === 'true' || props.disabled === true}
-		>{props.text}</button>
-	)
+export class SimpleButton extends Component {
+	constructor(props) {
+		super(props); 
+
+		this.state = {
+			counter: 0, 
+			hasButtonBeenClicked: false
+		}
+	}
+
+	render() {
+		return (
+			<button 
+				className={this.props.className}
+				onClick={this.props.callback}
+				disabled={this.props.disabled === 'true' || this.props.disabled === true}
+			>
+				{this.props.text} 
+				{this.state.counter} 
+				{this.state.hasButtonBeenClicked && <div>Button Clicked!</div>}
+			</button>
+		)		
+	}
 }
