@@ -1,4 +1,5 @@
 import React, {Component} from 'react'; 
+import PropTypes from 'prop-types'; 
 
 export class SimpleButton extends Component {
 	constructor(props) {
@@ -27,5 +28,16 @@ export class SimpleButton extends Component {
 		this.props.incrementCallback(5); 
 		this.setState({hasButtonBeenClicked: true}); 
 		this.props.callback(); 
+	}
+
+	static defaultProps = {
+		disabled: false
+	}
+
+	static = {
+		text: PropTypes.string,
+		theme: PropTypes.string, 
+		callback: PropTypes.func, 
+		disabled: PropTypes.oneOfType([PropTypes.bool, PropTypes.string])
 	}
 }

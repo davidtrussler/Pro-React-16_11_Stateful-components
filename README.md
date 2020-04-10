@@ -33,3 +33,4 @@ Based on Chapter 11 of Pro-React-16
 - Lifts State Data beyond parent
   - Converts App to be a stateful component with Hooks
   - Removes state data from Summary
+- Defines Prop Types and Default Values
