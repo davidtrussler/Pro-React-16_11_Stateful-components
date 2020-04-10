@@ -24,3 +24,7 @@ Based on Chapter 11 of Pro-React-16
 
 - Adds HooksButton component
 - Updates Summary to use HooksButton
+
+### 5. [Lifting up state data](https://github.com/davidtrussler/Pro-React-16_11_Stateful-components/tree/Lifting-up-State-Data)
+
+- Converts Summary to a class-based component defining a counter value
