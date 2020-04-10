@@ -19,3 +19,8 @@ Based on Chapter 11 of Pro-React-16
 ### 3. [Modifies state data](https://github.com/davidtrussler/Pro-React-16_11_Stateful-components/tree/Modify-state-data)
 
 - Uses setState method to modify state
+
+### 4. [Defining state data using Hooks](https://github.com/davidtrussler/Pro-React-16_11_Stateful-components/tree/Defining-State-Data-with-Hooks)
+
+- Adds HooksButton component
+- Updates Summary to use HooksButton
