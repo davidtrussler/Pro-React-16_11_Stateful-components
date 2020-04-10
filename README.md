@@ -29,3 +29,4 @@ Based on Chapter 11 of Pro-React-16
 
 - Converts Summary to a class-based component defining a counter value
 - Replaces State Data with props in SimpleButton
+- Replaces State Data with props in HooksButton
