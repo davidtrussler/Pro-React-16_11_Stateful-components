@@ -32,3 +32,4 @@ Based on Chapter 11 of Pro-React-16
 - Replaces State Data with props in HooksButton
 - Lifts State Data beyond parent
   - Converts App to be a stateful component with Hooks
+  - Removes state data from Summary
